@@ -19,7 +19,7 @@ weatherForm.addEventListener('submit', (e) => {
                 messageOne.textContent = data.error
             } else {
                 messageOne.textContent = ''
-                messageTwo.textContent = data.data
+                messageTwo.textContent = data.data + "..also you eat butts"
             }
         })
     })
